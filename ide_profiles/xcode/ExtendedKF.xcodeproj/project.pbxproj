@@ -34,43 +34,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		6D6BBFC84B444BA5B33834D1 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXBuildFile; fileRef = 8BC001EF4A8E43F3BB417F57 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/main.cpp */; };
-		840C7900FE164DC3A3EABA5E /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXBuildFile; fileRef = 5E0FCF8B8DD044D088A3F4A7 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */; };
-		C749F14817C946B2B21A2981 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 459FF1BA784B4F799C253D44 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */; };
-		CC624463CCE346E6A9657CF5 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXBuildFile; fileRef = 4B2A377EDDBF446785C02F94 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */; };
-		F47A5B17E15E450997090592 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXBuildFile; fileRef = B4EF8F3DECC240CAB2CA5DD9 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */; };
+		6D6BBFC84B444BA5B33834D1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 8BC001EF4A8E43F3BB417F57 /* main.cpp */; };
+		840C7900FE164DC3A3EABA5E /* FusionEKF.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5E0FCF8B8DD044D088A3F4A7 /* FusionEKF.cpp */; };
+		CC624463CCE346E6A9657CF5 /* kalman_filter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4B2A377EDDBF446785C02F94 /* kalman_filter.cpp */; };
+		F47A5B17E15E450997090592 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B4EF8F3DECC240CAB2CA5DD9 /* tools.cpp */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXBuildStyle section */
-		4082F34B8C8C43379C9DD7E8 /* Release */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Release;
-		};
-		492920BFBB3041E7AC8E8EF5 /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		4BB1AB02D5CF4209B50C9E64 /* MinSizeRel */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = MinSizeRel;
-		};
-		E27D39D9EC6E48DA99F0C838 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-/* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
 		191CFA7EB0C7428DA56A4186 /* PBXContainerItemProxy */ = {
@@ -97,14 +65,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		459FF1BA784B4F799C253D44 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		4B2A377EDDBF446785C02F94 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
-		4F89A74299944EA28ED24DB8 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		5E0FCF8B8DD044D088A3F4A7 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
+		459FF1BA784B4F799C253D44 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		4B2A377EDDBF446785C02F94 /* kalman_filter.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = kalman_filter.cpp; path = src/kalman_filter.cpp; sourceTree = SOURCE_ROOT; };
+		4F89A74299944EA28ED24DB8 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		507F65AB1EF5BC9F00BDA720 /* kalman_filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kalman_filter.h; path = src/kalman_filter.h; sourceTree = "<group>"; };
+		5E0FCF8B8DD044D088A3F4A7 /* FusionEKF.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = FusionEKF.cpp; path = src/FusionEKF.cpp; sourceTree = SOURCE_ROOT; };
 		71D9E9E4C21840D083AA2AE4 /* ExtendedKF */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = ExtendedKF; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BC001EF4A8E43F3BB417F57 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
-		9AE01D4381994F928814166F /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		B4EF8F3DECC240CAB2CA5DD9 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
+		8BC001EF4A8E43F3BB417F57 /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = main.cpp; path = src/main.cpp; sourceTree = SOURCE_ROOT; };
+		9AE01D4381994F928814166F /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		B4EF8F3DECC240CAB2CA5DD9 /* tools.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = tools.cpp; path = src/tools.cpp; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -129,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				242C4B63F8664B81A39C149A /* CMake Rules */,
-				9AE01D4381994F928814166F /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+				9AE01D4381994F928814166F /* CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
 			sourceTree = "<group>";
@@ -146,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				E1F04955449B4A6FA9151B92 /* CMake Rules */,
-				4F89A74299944EA28ED24DB8 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+				4F89A74299944EA28ED24DB8 /* CMakeLists.txt */,
 			);
 			name = ZERO_CHECK;
 			sourceTree = "<group>";
@@ -154,8 +123,9 @@
 		BBC5DAE09B084AC1AA861C1B /* ExtendedKF */ = {
 			isa = PBXGroup;
 			children = (
+				507F65AB1EF5BC9F00BDA720 /* kalman_filter.h */,
 				DB04D3BE9B19429AB6B79208 /* Source Files */,
-				459FF1BA784B4F799C253D44 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/CMakeLists.txt */,
+				459FF1BA784B4F799C253D44 /* CMakeLists.txt */,
 			);
 			name = ExtendedKF;
 			sourceTree = "<group>";
@@ -163,10 +133,10 @@
 		DB04D3BE9B19429AB6B79208 /* Source Files */ = {
 			isa = PBXGroup;
 			children = (
-				5E0FCF8B8DD044D088A3F4A7 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
-				4B2A377EDDBF446785C02F94 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
-				8BC001EF4A8E43F3BB417F57 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
-				B4EF8F3DECC240CAB2CA5DD9 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+				5E0FCF8B8DD044D088A3F4A7 /* FusionEKF.cpp */,
+				4B2A377EDDBF446785C02F94 /* kalman_filter.cpp */,
+				8BC001EF4A8E43F3BB417F57 /* main.cpp */,
+				B4EF8F3DECC240CAB2CA5DD9 /* tools.cpp */,
 			);
 			name = "Source Files";
 			sourceTree = "<group>";
@@ -207,16 +177,12 @@
 				LastUpgradeCheck = 0830;
 			};
 			buildConfigurationList = 09BBA8C084B145108CC63E06 /* Build configuration list for PBXProject "ExtendedKF" */;
-			buildSettings = {
-			};
-			buildStyles = (
-				492920BFBB3041E7AC8E8EF5 /* Debug */,
-				4082F34B8C8C43379C9DD7E8 /* Release */,
-				4BB1AB02D5CF4209B50C9E64 /* MinSizeRel */,
-				E27D39D9EC6E48DA99F0C838 /* RelWithDebInfo */,
-			);
 			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 5BF42649969A4F699A5F8F84;
 			projectDirPath = ../../;
 			projectRoot = "";
@@ -229,36 +195,6 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		A3CF57D125A44F47B9C7F9BE = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
-		AF53042F0A4C44B0BAA2C85F = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# shell script goes here
-exit 0";
-			showEnvVarsInLog = 0;
-		};
 		BF789D13488F4DBE9967390D /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -288,10 +224,10 @@ exit 0";
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				840C7900FE164DC3A3EABA5E /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp */,
-				CC624463CCE346E6A9657CF5 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/kalman_filter.cpp */,
-				6D6BBFC84B444BA5B33834D1 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/main.cpp */,
-				F47A5B17E15E450997090592 /* /Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/src/tools.cpp */,
+				840C7900FE164DC3A3EABA5E /* FusionEKF.cpp in Sources */,
+				CC624463CCE346E6A9657CF5 /* kalman_filter.cpp in Sources */,
+				6D6BBFC84B444BA5B33834D1 /* main.cpp in Sources */,
+				F47A5B17E15E450997090592 /* tools.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,20 +261,42 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.11.0/lib,
+				);
 				OTHER_CPLUSPLUSFLAGS = "   -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ExtendedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -349,9 +307,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -359,7 +320,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -370,9 +336,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -380,7 +349,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -391,9 +365,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -401,7 +378,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -412,9 +394,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -422,7 +407,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -433,9 +423,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -443,7 +436,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};
@@ -463,9 +461,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -473,7 +474,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -495,20 +501,42 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.12.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.12.0/lib,
+				);
 				OTHER_CPLUSPLUSFLAGS = "   -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ExtendedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -519,9 +547,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -529,7 +560,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Debug;
 		};
@@ -542,20 +578,42 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.12.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.12.0/lib,
+				);
 				OTHER_CPLUSPLUSFLAGS = "   -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ExtendedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = Release;
 		};
@@ -568,20 +626,42 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				LD_RUNPATH_SEARCH_PATHS = "/usr/local/lib /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib";
-				LIBRARY_SEARCH_PATHS = " /usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/lib /usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/opt/openssl/lib /usr/local/Cellar/libuv/1.11.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME) /usr/local/Cellar/libuv/1.11.0/lib";
+				LIBRARY_SEARCH_PATHS = (
+					"/usr/local/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/lib,
+					"/usr/local/opt/openssl/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/opt/openssl/lib,
+					"/usr/local/Cellar/libuv/1.12.0/lib/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)",
+					/usr/local/Cellar/libuv/1.12.0/lib,
+				);
 				OTHER_CPLUSPLUSFLAGS = "   -std=c++11";
-				OTHER_LDFLAGS = " -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -lz -lssl -luv -luWS";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-lz",
+					"-lssl",
+					"-luv",
+					"-luWS",
+				);
 				OTHER_REZFLAGS = "";
 				PRODUCT_NAME = ExtendedKF;
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = MinSizeRel;
 		};
@@ -610,9 +690,12 @@ exit 0";
 				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
 				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/usr/local/include,/usr/local/opt/openssl/include);
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					/usr/local/opt/openssl/include,
+				);
 				INSTALL_PATH = "";
 				OTHER_LDFLAGS = " ";
 				OTHER_REZFLAGS = "";
@@ -620,7 +703,12 @@ exit 0";
 				SECTORDER_FLAGS = "";
 				SYMROOT = "/Users/p.tarasov/notebooks/udacity-term2/CarND-Extended-Kalman-Filter-Project/ide_profiles/xcode";
 				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"$(inherited)",
+				);
 			};
 			name = RelWithDebInfo;
 		};

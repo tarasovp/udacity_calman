@@ -32,7 +32,9 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
         residual = residual.array()*residual.array();
         rmse += residual;
     }
-    
+    cout << "Last error:" <<estimations[estimations.size()-1] -
+    ground_truth[estimations.size()-1] << endl;
+
     //calculate the mean
     rmse = rmse/estimations.size();
     

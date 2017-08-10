@@ -47,16 +47,13 @@ int main()
     {
     auto s = hasData(std::string(data));
       if (s != "") {
-        cout << "xuy" << endl;
-
+        
         auto j = json::parse(s);
-          cout << " j found " << endl;
-
+        
         std::string event = j[0].get<std::string>();
         
         if (event == "telemetry") {
             
-            cout << "telemetry" << endl;
           // j[1] is the data JSON object
           
           string sensor_measurment = j[1]["sensor_measurement"];
@@ -68,9 +65,7 @@ int main()
     	  // reads first element from the current line
     	  string sensor_type;
     	  iss >> sensor_type;
-            
-            cout << " got sensor measurements" << endl;
-
+          
     	  if (sensor_type.compare("L") == 0) {
       	  		meas_package.sensor_type_ = MeasurementPackage::LASER;
           		meas_package.raw_measurements_ = VectorXd(2);
@@ -109,14 +104,11 @@ int main()
     	  gt_values(2) = vx_gt;
     	  gt_values(3) = vy_gt;
     	  ground_truth.push_back(gt_values);
-            
-            cout << "loaded everything" << endl;
           
           //Call ProcessMeasurment(meas_package) for Kalman filter
     	  fusionEKF.ProcessMeasurement(meas_package);
             
-           cout << "Measurment processed, main" << endl;
-
+           
     	  //Push the current estimated x,y positon from the Kalman filter's state vector
 
     	  VectorXd estimate(4);
@@ -145,9 +137,7 @@ int main()
           msgJson["rmse_vx"] = RMSE(2);
           msgJson["rmse_vy"] = RMSE(3);
           auto msg = "42[\"estimate_marker\"," + msgJson.dump() + "]";
-          // std::cout << msg << std::endl;
           ws.send(msg.data(), msg.length(), uWS::OpCode::TEXT);
-            cout << "finixhed xuy" << endl;
         }
       } else {
         std::string msg = "42[\"manual\",{}]";
