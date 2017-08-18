@@ -10,7 +10,7 @@ using Eigen::VectorXd;
 using std::vector;
 
 #define SKIP_RADAR 0
-#define SKIP_LIDAR 1
+#define SKIP_LIDAR 0
 
 
 /*
